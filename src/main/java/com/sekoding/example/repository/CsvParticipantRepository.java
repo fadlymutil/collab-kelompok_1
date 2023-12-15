@@ -71,7 +71,7 @@ public class CsvParticipantRepository implements ParticipantRepository {
     private static List<Participant> createKelompok1() {
         List<Participant> participants = new ArrayList<>();
 
-        participants.add(new Participant("Ariawan"));
+        participants.add(new Participant("Ariawan","main game"));
         participants.add(new Participant("Dini", "Tidur"));
         participants.add(new Participant("Fadly", "Game"));
 
